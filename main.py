@@ -30,7 +30,7 @@ if recommendation_type == "Hollywood Genre Based":
     st.dataframe(build_chart(genre_selected, count1))
     st.text(" ")
     st.write(
-        "You can find the dataset & analysis.py file for the above analysis [here](https://github.com/PROxZIMA/Movie-Recommendation-System/)"
+        "You can find the dataset & analysis.py file for the above analysis [here](https://google.com/)"
     )
 
 elif recommendation_type == "Movie Based":
@@ -48,7 +48,7 @@ elif recommendation_type == "Movie Based":
     st.dataframe(get_recommendations(title, count2))
     st.text(" ")
     st.write(
-        "You can find the dataset & analysis.py file for the above analysis [here](https://github.com/PROxZIMA/Movie-Recommendation-System/)"
+        "You can find the dataset & analysis.py file for the above analysis [here](https://google.com/)"
     )
     st.write(" ")
     st.write("PS - Please enter the movie title correctly.")
@@ -75,5 +75,5 @@ else:
     st.dataframe(indian_genre_based(genre_selected_2, lang_selected, count3))
     st.text(" ")
     st.write(
-        "You can find the dataset & analysis.py file for the above analysis [here](https://github.com/PROxZIMA/Movie-Recommendation-System/)"
+        "You can find the dataset & analysis.py file for the above analysis [here](https://google.com/)"
     )
